@@ -1,0 +1,254 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2020, 11:38:02 PM
+    Author     : NEW
+*/body{
+ width: 100%;
+ height: 100%;
+ margin: 0;
+}
+a{
+ text-decoration: none;
+ background-color: transparent;
+ color:#808080;
+}
+.header{
+ background-color:#000;
+ color:#fff;
+ border-color: #080808;
+ min-height: 50px;
+ border: 1px solid transparent
+ }
+.inner-header{
+ width:80%;
+ margin:auto;
+}
+.logo{
+ float: left;
+ height: 50px;
+ padding: 15px;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: 'Poppins', sans-serif;
+ color:#808080;
+}
+.header-links{
+ float:right;
+ height: 50px;
+ padding: 15px 15px;
+ font-size:16px;
+ font-weight: bold;
+ font-family: 'Poppins', sans-serif;
+ color:#808080;
+}
+.content{
+ min-height: 660px;
+}
+.banner-image{
+ padding-bottom: 280px;
+ margin-bottom: 20px;
+ text-align: center;
+ color: #f8f8f8;
+ background: url(images/bg.jpg) no-repeat center;
+ background-size: cover; 
+ width:100%;
+}
+p{
+ font-size: 14px;
+}
+.inner-banner-image{
+ padding-top: 12%;
+ width:80%;
+ margin:auto;
+}
+.banner-content{
+    
+ padding-top: 6%;
+ padding-bottom: 8%;
+ overflow:hidden;
+ margin-left: 20%; 
+ background-color: rgba(0, 0, 0, 0.7);
+ max-width: 60%;
+ font-family: 'Poppins', sans-serif;
+}
+.banner-content p{
+ margin-top: 0px;
+}
+.banner-content h1{
+ margin-bottom:0px;
+}
+
+.button{
+ color: #fff;
+ background-color: #c9302c;
+ border-color: #ac2925;
+ box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+ padding: 15px 16px;
+ font-size: 18px;
+ border-radius: 6px;
+ font-family: 'Poppins', sans-serif;
+
+}
+.container{
+ width:90%;
+ margin:auto;
+ overflow:hidden;
+ align-items: center;
+}
+.item1{
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius:4px;
+    float:left;
+    margin-left: 1%;
+    margin-right: 3%;
+  
+    
+}
+
+.item2{
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius:4px;
+    float:left;
+    margin-right: 3%;
+    
+}
+
+.item3{
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius:4px;
+    float:left;
+    
+}
+.thumbnail1{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+.caption1{
+    color: #000;
+    padding: 0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.thumbnail2{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+.caption2{
+    color: #000;
+    padding: 0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.thumbnail3{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+.caption3{
+    color: #000;
+    padding: 0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    background-color: #000;
+    color: #808080;
+    font-size: 14px;
+    text-align: center;
+    padding:15px 0px 15px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+@media only screen and (min-width:320px) and (max-width: 480px){
+                           .container-fluid
+                           {
+                               min-width:320px;
+                               max-width: 480px;
+                           }
+                           .container{
+                               width: 100%;
+                           }
+                           .item1,.item2,.item3{
+                               margin: 0%;
+                           }
+                           .caption1 ,.caption2 ,.caption3 {
+                              font-weight: none;
+                           }
+                           
+                           .inner-header{
+                               width:100%;
+                               margin:auto;
+                          }
+                          .header-links{
+                               
+                               font-size:13px;
+                               font-weight: none;
+                               padding: 15px 15px;
+                          }
+                             
+                          h2,.caption1,.caption2,.caption3{
+                               font-size: 100%;
+                          }
+                         }
+                         
+@media only screen and (min-width:481px) and (max-width: 767px){
+                           .container-fluid
+                           {
+                               min-width:481px;
+                               max-width: 767px;
+                           }
+                           .inner-header{
+                               width:100%;
+                               margin:auto;
+                          }
+                        }
+                         
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+                           .container-fluid
+                           {
+                               min-width:641px;
+                               max-width: 1024px;
+                           }
+                        }
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+                           .container-fluid
+                           {
+                               min-width:1025px;
+                               max-width: 1280px;
+                           }
+                        }
+@media only screen and (min-width: 1281px) {
+                            .container-fluid
+                           {
+                               min-width:1281px;
+                           }
+                         }
